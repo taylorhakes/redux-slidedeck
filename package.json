@@ -1,0 +1,48 @@
+{
+  "name": "react-slidedeck",
+  "version": "0.0.0",
+  "description": "React slide deck example",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-slidedeck.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "slide deck",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-slidedeck/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-slidedeck",
+  "devDependencies": {
+    "babel-core": "^5.1.11",
+    "babel-eslint": "^3.1.7",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.13.1",
+    "eslint": "^0.21.2",
+    "eslint-plugin-react": "^2.3.0",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "react-hot-loader": "^1.2.2",
+    "style-loader": "^0.12.2",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "react": "^0.13.0",
+    "react-redux": "^0.5.1",
+    "redux": "^1.0.0-rc"
+  }
+}
