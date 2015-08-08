@@ -24,6 +24,9 @@ export default class App extends Component {
 	componentDidMount() {
 		window.addEventListener('keydown', this.handleKeyDown);
 	}
+	componentWillUnmount() {
+		window.removeEventListener('keydown', this.handleKeyDown);
+	}
 
 	handleKeyDown(e) {
 		const { currentSlide, nextSlide, prevSlide } = this.props;
